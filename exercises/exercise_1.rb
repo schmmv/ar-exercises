@@ -16,5 +16,5 @@ Store.create(name: "Richmond", annual_revenue: 1260000, mens_apparel: false, wom
 
 Store.create(name: "Gastown", annual_revenue: 190000, mens_apparel: true, womens_apparel: false)
 
-puts Store.count(:all)
+puts "Records in stores: #{Store.count(:all)}"
 
